@@ -2,7 +2,7 @@
 
 MittiSeva is a **free, AI-powered Soil Health Analysis and Crop Advisory System** developed for farmers in **Andhra Pradesh** and **Telangana**. The application analyzes soil parameters, calculates a soil health score, recommends fertilizers and crops, maintains historical records, and provides multilingual agricultural assistance through **Krishi AI**.
 
-🌐 **Live Demo:** https://soilhealth-analysis.vercel.app/
+
 
 ---
 
