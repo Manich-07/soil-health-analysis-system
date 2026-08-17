@@ -5,10 +5,10 @@
 // You need: Project URL and the "anon / public" key (starts with eyJ...)
 // ==========================================
 
-const SUPABASE_URL = window.env?.SUPABASE_URL || "https://sqdrqpkcwfapxajztiwz.supabase.co";
+const SUPABASE_URL = window.env?.SUPABASE_URL || "https://vzghdaqwqticebusyynj.supabase.co";
 
 // IMPORTANT: Use the "anon public" JWT key (starts with eyJ...), NOT the publishable key
-const SUPABASE_ANON_KEY = window.env?.SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNxZHJxcGtjd2ZhcHhhanp0aXd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE5NTg2OTgsImV4cCI6MjA5NzUzNDY5OH0.LJDn02ixvFFS0OCKipDiiNXs27aKR0m3qop2FMsb68M";
+const SUPABASE_ANON_KEY = window.env?.SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6Z2hkYXF3cXRpY2VidXN5eW5qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY5NTA1MTQsImV4cCI6MjEwMjUyNjUxNH0.BrwKWcmeUENnbWHz6E_l_lFC2rtBaY3q9zENM1yGLj4";
 
 // Initialize Supabase Client
 if (typeof window.supabase !== 'undefined' && typeof window.supabase.createClient === 'function') {
